@@ -20,6 +20,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Add a button that switches the whole site between a light and dark color theme. When the visitor picks one, save their choice in localStorage so it's remembered the next time they visit. On their very first visit, before they've chosen anything, check their operating system's dark mode setting and match the site to it instead of defaulting to light.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=dark-light)
+**[Try the live demo](https://miguelclavel.github.io/dark-mode/)** · **[Get the code: dark-mode](https://github.com/miguelclavel/dark-mode)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=dark-light)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

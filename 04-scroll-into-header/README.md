@@ -28,6 +28,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Make my hero section three screens tall and pin its contents to the top while the user scrolls through it. Turn the scroll position inside that section into a single value from 0 to 1. Use that one value to move my name from large and centered to small and top left, and to fade the supporting text out as it goes. Run the value through an ease-out curve before applying it. When the section ends, leave the name parked in the header for the rest of the page.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=scroll-into-header)
+**[Try the live demo](https://miguelclavel.github.io/scroll-into-header/)** · **[Get the code: scroll-into-header](https://github.com/miguelclavel/scroll-into-header)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=scroll-into-header)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

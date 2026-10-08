@@ -36,6 +36,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 As the user scrolls from one section into the next, cover the screen with a canvas filled in the colour they are leaving, over a grid of 24 pixel squares. Give every square a threshold: two thirds from its row so the lowest rows open first, one third random. Turn scroll position into a value from 0 to 1 based on the section being uncovered, not the one being left. Repaint every square under that value in the arriving colour. Give squares that just flipped a small chance of painting an accent colour first. Read the colours from the themed wrapper, not the root, so it works in both themes.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=pixel-dissolve)
+**[Try the live demo](https://miguelclavel.github.io/pixel-dissolve/)** · **[Get the code: pixel-dissolve](https://github.com/miguelclavel/pixel-dissolve)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=pixel-dissolve)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>
