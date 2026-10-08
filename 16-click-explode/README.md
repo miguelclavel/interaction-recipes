@@ -18,6 +18,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 When an element is clicked, spawn a handful of small particles at the click position. Give each one a random direction and speed, a random spin, and a downward pull like gravity, so they arc instead of flying in a straight line. Fade each one out over about a second and remove it from the page once it's gone.
 ```
 
-[See it on my second portfolio](https://miguelclavel-2.netlify.app/?utm_source=github&utm_medium=recipes&utm_campaign=click-explode)
+[See it on my second portfolio](https://miguelclavel-2.miguelclavel-1.workers.dev/?utm_source=github&utm_medium=recipes&utm_campaign=click-explode)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

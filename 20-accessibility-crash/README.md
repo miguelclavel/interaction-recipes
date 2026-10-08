@@ -32,6 +32,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 componentDidUpdate in my component assumes its second argument is the previous state, but this runtime only passes previous props, so that argument is undefined and every read from it throws. Rewrite the component to track the previous value itself: save the value you care about onto the instance at the end of componentDidUpdate, then compare against that saved copy at the start of the next call.
 ```
 
-[See it on my second portfolio](https://miguelclavel-2.netlify.app/?utm_source=github&utm_medium=recipes&utm_campaign=accessibility-crash)
+[See it on my second portfolio](https://miguelclavel-2.miguelclavel-1.workers.dev/?utm_source=github&utm_medium=recipes&utm_campaign=accessibility-crash)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

@@ -18,6 +18,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Transition between two sections of a page using a grid of solid color blocks instead of a fade. Tie the transition directly to scroll position, so it's not on a timer, sweep the blocks from bottom to top as the user scrolls through the range, and mix in two or three accent colors at a low percentage so it doesn't look like a flat wipe.
 ```
 
-[See it on my second portfolio](https://miguelclavel-2.netlify.app/?utm_source=github&utm_medium=recipes&utm_campaign=scroll-pixel-transition)
+[See it on my second portfolio](https://miguelclavel-2.miguelclavel-1.workers.dev/?utm_source=github&utm_medium=recipes&utm_campaign=scroll-pixel-transition)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>
