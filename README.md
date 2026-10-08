@@ -20,8 +20,8 @@ These are the small moments from my portfolio, [miguelclavel.com](https://miguel
     <td width="50%" valign="top"><a href="06-images-frame-text/"><img src="06-images-frame-text/demo.gif" alt="Images moving out to frame a line of text"></a><br><b><a href="06-images-frame-text/">06 · Images that turn into the frame for the text</a></b><br><sub>Images placed around an invisible circle, leaving the centre clear.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><b><a href="07-pixel-dissolve/">07 · A pixel dissolve from light into dark</a></b><br><sub>Two thirds order, one third noise. Took four tries.</sub></td>
-    <td width="50%" valign="top"><a href="08-footer-game/"><img src="https://github.com/miguelclavel/pixel-run-game/raw/main/assets/pixel-run-light.png" alt="A small runner game where the blocks spell a name"></a><br><b><a href="08-footer-game/">08 · A playable game in the footer</a></b><br><sub>The thing you jump over is my own name. Full code in <a href="https://github.com/miguelclavel/pixel-run-game">pixel-run-game</a>.</sub></td>
+    <td width="50%" valign="top"><a href="07-pixel-dissolve/"><img src="07-pixel-dissolve/demo.gif" alt="A light section dissolving into a dark one in squares"></a><br><b><a href="07-pixel-dissolve/">07 · A pixel dissolve from light into dark</a></b><br><sub>Two thirds order, one third noise. Took four tries.</sub></td>
+    <td width="50%" valign="top"><a href="08-footer-game/"><img src="https://github.com/miguelclavel/pixel-run-game/raw/main/assets/pixel-run.gif" alt="A small runner game where the blocks spell a name"></a><br><b><a href="08-footer-game/">08 · A playable game in the footer</a></b><br><sub>The thing you jump over is my own name. Full code in <a href="https://github.com/miguelclavel/pixel-run-game">pixel-run-game</a>.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="09-case-study-carousel/"><img src="09-case-study-carousel/demo.gif" alt="Case study cards riding along a curve"></a><br><b><a href="09-case-study-carousel/">09 · Case studies that ride a curve</a></b><br><sub>Cards on a circle whose centre sits below the screen.</sub></td>

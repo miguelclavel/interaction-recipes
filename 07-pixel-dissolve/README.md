@@ -1,5 +1,7 @@
 # A pixel dissolve from light into dark
 
+<img src="demo.gif" width="720" alt="A pixel dissolve from light into dark: a screen recording">
+
 The light half of my site breaks into squares and the dark half comes through underneath.
 
 It's my favourite thing on the page and it took four tries.
