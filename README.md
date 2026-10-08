@@ -2,17 +2,17 @@
 
 A page can be completely correct and still feel flat. The gap between flat and expensive is usually a few small moments where the page notices you're there.
 
-These are the small moments from my portfolio, [miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes), each one written up the way I built it: what it does, what went wrong, and **the exact prompt**, so you can paste it into Claude or any AI coding tool and get it on your own site. Three of them also have a live demo with plain, copyable code. No libraries, no build step.
+These are the small moments from my portfolio, [miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes), each one written up the way I built it: what it does, what went wrong, and **the exact prompt**, so you can paste it into Claude or any AI coding tool and get it on your own site. Four of them also have their own repo with a live demo and plain, copyable code: [name-hover](https://github.com/miguelclavel/name-hover), [pixel-trail](https://github.com/miguelclavel/pixel-trail), [wave-line](https://github.com/miguelclavel/wave-line) and [pixel-run-game](https://github.com/miguelclavel/pixel-run-game). No libraries, no build step.
 
 **[Try the live demos](https://miguelclavel.github.io/interaction-recipes/)** · By [Miguel Clavel](https://github.com/miguelclavel), Senior Product Designer
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="01-name-hover/"><img src="01-name-hover/demo.gif" alt="Letters of a name reacting one at a time"></a><br><b><a href="01-name-hover/">01 · A name where every letter reacts on its own</a></b><br><sub>Eight hover animations, cycled so neighbours never match. Live demo.</sub></td>
-    <td width="50%" valign="top"><a href="02-pixel-trail/"><img src="02-pixel-trail/demo.gif" alt="A trail of coloured squares following the pointer"></a><br><b><a href="02-pixel-trail/">02 · A pixel trail behind the hero</a></b><br><sub>A grid that remembers the brightest it's been, so the trail holds its shape. Live demo.</sub></td>
+    <td width="50%" valign="top"><a href="01-name-hover/"><img src="01-name-hover/demo.gif" alt="Letters of a name reacting one at a time"></a><br><b><a href="01-name-hover/">01 · A name where every letter reacts on its own</a></b><br><sub>Eight hover animations, cycled so neighbours never match. Code: <a href="https://github.com/miguelclavel/name-hover">name-hover</a>.</sub></td>
+    <td width="50%" valign="top"><a href="02-pixel-trail/"><img src="02-pixel-trail/demo.gif" alt="A trail of coloured squares following the pointer"></a><br><b><a href="02-pixel-trail/">02 · A pixel trail behind the hero</a></b><br><sub>A grid that remembers the brightest it's been, so the trail holds its shape. Code: <a href="https://github.com/miguelclavel/pixel-trail">pixel-trail</a>.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="03-wave-line/"><img src="03-wave-line/demo.gif" alt="A divider line bending toward the pointer"></a><br><b><a href="03-wave-line/">03 · A line that bends toward your cursor</a></b><br><sub>One control point, a spring that keeps 86% each bounce, no overlay. Live demo.</sub></td>
+    <td width="50%" valign="top"><a href="03-wave-line/"><img src="03-wave-line/demo.gif" alt="A divider line bending toward the pointer"></a><br><b><a href="03-wave-line/">03 · A line that bends toward your cursor</a></b><br><sub>One control point, a spring that keeps 86% each bounce, no overlay. Code: <a href="https://github.com/miguelclavel/wave-line">wave-line</a>.</sub></td>
     <td width="50%" valign="top"><a href="04-scroll-into-header/"><img src="04-scroll-into-header/demo.gif" alt="A large name shrinking into the header on scroll"></a><br><b><a href="04-scroll-into-header/">04 · A name that travels into the header</a></b><br><sub>One scroll number from 0 to 1 drives everything, through an easing curve.</sub></td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ These are the small moments from my portfolio, [miguelclavel.com](https://miguel
 2. Copy the prompt as it is and paste it into Claude, Claude Code, or any AI coding tool, along with your page.
 3. Tune it. Every recipe says which number to play with.
 
-For the three with live demos, you can also take the code straight from `index.html` in the folder. Each one is a single file.
+For the four with their own repo, you can also take the code straight from it. Each one is a single file.
 
 ## Why prompts and not just code
 

@@ -20,6 +20,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Split this heading into individual letters, each in its own element. Write eight short hover animations: a squash and stretch, a tip over that swings back, a drop and spring up, a 3D flip, a sideways slide, a shiver, a scale pop, and a hop. Cycle them across the letters so neighbours never match. Each runs between half a second and two seconds, and plays only when the mouse enters that one letter. Give each a sensible transform origin. Turn it all off for reduced motion.
 ```
 
-**[Try the live demo](https://miguelclavel.github.io/interaction-recipes/01-name-hover/)** · [Source](index.html) · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=name-hover)
+**[Try the live demo](https://miguelclavel.github.io/name-hover/)** · **[Get the code: name-hover](https://github.com/miguelclavel/name-hover)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=name-hover)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

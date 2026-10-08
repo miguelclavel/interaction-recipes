@@ -24,6 +24,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Add a full width canvas behind my hero, split into a grid about 100 columns wide. As the pointer moves, raise an energy value on every cell within 60 pixels of it, and let each cell keep the highest energy it has reached rather than following the pointer back down. Fade energy slowly, twice as fast once the pointer has been still for half a second. Draw the highest energy cells as solid squares in the page text colour and lower ones in random accent colours, skipping the faintest. Never draw over the rectangle where my hero text sits.
 ```
 
-**[Try the live demo](https://miguelclavel.github.io/interaction-recipes/02-pixel-trail/)** · [Source](index.html) · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=pixel-trail)
+**[Try the live demo](https://miguelclavel.github.io/pixel-trail/)** · **[Get the code: pixel-trail](https://github.com/miguelclavel/pixel-trail)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=pixel-trail)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

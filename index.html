@@ -51,8 +51,8 @@
   <section id="letters">
     <p class="num">Recipe 01</p>
     <h2>A name where every letter reacts on its own</h2>
-    <div class="demo"><iframe src="01-name-hover/?embed" title="Live demo: letters that react one at a time" loading="lazy"></iframe></div>
-    <div class="links"><a href="01-name-hover/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/01-name-hover/index.html">Source</a></div>
+    <div class="demo"><iframe src="https://miguelclavel.github.io/name-hover/?embed" title="Live demo: letters that react one at a time" loading="lazy"></iframe></div>
+    <div class="links"><a href="https://miguelclavel.github.io/name-hover/">Open full screen</a><a href="https://github.com/miguelclavel/name-hover">Code and README</a></div>
     <div class="story">
       <p>I wanted the first thing you touch on the page to feel alive, without turning my own name into a toy. So the rule was simple: react to the exact letter under your mouse, never the whole word. Eight animations, cycled so neighbours never share one.</p>
       <p><b>The bit I had to fix by hand:</b> they kept firing while the name was shrinking up into the header on scroll, which looked broken. One check stops a letter animating once the name starts moving.</p>
@@ -64,8 +64,8 @@
   <section id="pixel-trail">
     <p class="num">Recipe 02</p>
     <h2>A pixel trail behind the hero</h2>
-    <div class="demo"><iframe src="02-pixel-trail/?embed" title="Live demo: a pixel trail behind the hero" loading="lazy"></iframe></div>
-    <div class="links"><a href="02-pixel-trail/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/02-pixel-trail/index.html">Source</a></div>
+    <div class="demo"><iframe src="https://miguelclavel.github.io/pixel-trail/?embed" title="Live demo: a pixel trail behind the hero" loading="lazy"></iframe></div>
+    <div class="links"><a href="https://miguelclavel.github.io/pixel-trail/">Open full screen</a><a href="https://github.com/miguelclavel/pixel-trail">Code and README</a></div>
     <div class="story">
       <p>It's a grid, not a cursor. The page is split into 102 columns of small squares. Your pointer charges up whichever squares it passes near, and each one remembers the brightest it's ever been. That single rule is what makes the trail hold its shape instead of flickering out behind you.</p>
       <p><b>What I got wrong twice:</b> squares kept lighting up underneath my name. I blocked the charge where the text sits and they still lit up, because the radius reaches in from outside it. The fix was to stop drawing there at all, not to stop charging.</p>
@@ -77,8 +77,8 @@
   <section id="bending-line">
     <p class="num">Recipe 03</p>
     <h2>A line that bends toward your cursor</h2>
-    <div class="demo"><iframe src="03-wave-line/?embed" title="Live demo: a line that bends toward the cursor" loading="lazy"></iframe></div>
-    <div class="links"><a href="03-wave-line/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/03-wave-line/index.html">Source</a></div>
+    <div class="demo"><iframe src="https://miguelclavel.github.io/wave-line/?embed" title="Live demo: a line that bends toward the cursor" loading="lazy"></iframe></div>
+    <div class="links"><a href="https://miguelclavel.github.io/wave-line/">Open full screen</a><a href="https://github.com/miguelclavel/wave-line">Code and README</a></div>
     <div class="story">
       <p>The line isn't really a line. It's a curve with a single control point, and that control point is your cursor. Move sideways and it slides with you. Move closer and the bend gets deeper. What makes it feel real is the letting go: it overshoots, comes back, overshoots less, and settles. Each bounce keeps 86 percent of the one before it, roughly what a real piece of string does.</p>
       <p><b>No invisible box:</b> it just listens to where your pointer is on the page. A box over the line would sit on top of the links next to it and eat the clicks.</p>

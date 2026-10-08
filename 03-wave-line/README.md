@@ -26,6 +26,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Draw a flat horizontal line as an SVG quadratic curve with one control point in the middle. Listen for mouse movement on the whole page, with no overlay element over the line. When the pointer comes within about 100 pixels vertically and inside the line's width, move the control point to the pointer's horizontal position and push it toward the pointer vertically. When the pointer leaves, spring the line back with a decaying oscillation, keeping about 86 percent of the amplitude each bounce, until it settles flat.
 ```
 
-**[Try the live demo](https://miguelclavel.github.io/interaction-recipes/03-wave-line/)** · [Source](index.html) · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=wave-line)
+**[Try the live demo](https://miguelclavel.github.io/wave-line/)** · **[Get the code: wave-line](https://github.com/miguelclavel/wave-line)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=wave-line)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>
