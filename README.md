@@ -34,10 +34,10 @@ These are the small moments from my two portfolios, [miguelclavel.com](https://m
 <table>
   <tr>
     <td width="50%" valign="top"><b><a href="11-viewed-badge/">11 · A case study list that remembers what you opened</a></b><br><sub>A small "viewed" mark, kept for the visit only, so readers know where they have been.</sub></td>
-    <td width="50%" valign="top"><a href="12-short-version/"><img src="12-short-version/demo.gif" alt="A three part summary at the top of a case study"></a><br><b><a href="12-short-version/">12 · The short version at the top of every case study</a></b><br><sub>Problem, what I did, result, before any images. For the 30 second read.</sub></td>
+    <td width="50%" valign="top"><a href="12-short-version/"><img src="12-short-version/demo.gif" alt="A three part summary at the top of a case study"></a><br><b><a href="12-short-version/">12 · The short version at the top of every case study</a></b><br><sub>The problem, what I did, what changed, before any images. For the 30 second read.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="13-dark-light/"><img src="13-dark-light/demo.gif" alt="A site switching between light and dark"></a><br><b><a href="13-dark-light/">13 · A dark mode that remembers you</a></b><br><sub>A toggle that sticks across visits and never flashes the wrong theme on load.</sub></td>
+    <td width="50%" valign="top"><a href="13-dark-light/"><img src="13-dark-light/demo.gif" alt="A site switching between light and dark"></a><br><b><a href="13-dark-light/">13 · A dark mode that remembers you</a></b><br><sub>A toggle that sticks across visits, and starts from the visitor's own system setting.</sub></td>
     <td width="50%" valign="top"><a href="14-404-page-game/"><img src="14-404-page-game/demo.gif" alt="A small jump game on a 404 page"></a><br><b><a href="14-404-page-game/">14 · A 404 game that never hands you an impossible jump</a></b><br><sub>Obstacles that stay fair as the game speeds up.</sub></td>
   </tr>
   <tr>
