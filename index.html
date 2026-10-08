@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interaction recipes · Miguel Clavel</title>
+<meta name="description" content="Three small interactions from miguelclavel.com, live, each with the exact prompt to build your own. By Miguel Clavel, Senior Product Designer.">
+<meta property="og:title" content="Interaction recipes · Miguel Clavel">
+<meta property="og:description" content="Three small interactions, live, each with the exact prompt to build your own.">
+<meta property="og:image" content="https://miguelclavel.github.io/interaction-recipes/assets/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://miguelclavel.github.io/interaction-recipes/">
+<style>
+  :root { --page: #F9F9FB; --panel: #FFFFFF; --ink: #1D1D21; --muted: #67676C; --rule: #DADADD; --code: #F1F1F4; --link: #1F5FD1; --focus: #155EEF; }
+  @media (prefers-color-scheme: dark) { :root { --page: #0F0F11; --panel: #141416; --ink: #F5F5F7; --muted: #A3A3A8; --rule: #2E2E33; --code: #1C1C1F; --link: #7AAEFF; --focus: #9CC3FF; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: var(--link); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .wrap { width: min(920px, 100% - 32px); margin: 0 auto; }
+  header { padding: 72px 0 24px; }
+  header .by { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+  header .by a { color: inherit; }
+  h1 { margin: 0; font-size: clamp(36px, 6vw, 56px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 750; }
+  header p.lede { margin: 16px 0 0; font-size: 18px; color: var(--muted); max-width: 640px; }
+  section { margin: 48px 0 0; padding: 0 0 8px; }
+  .num { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  h2 { margin: 4px 0 14px; font-size: 26px; letter-spacing: -0.02em; line-height: 1.2; }
+  .demo { border: 1px solid var(--rule); border-radius: 16px; overflow: hidden; background: var(--panel); }
+  .demo iframe { display: block; width: 100%; height: 360px; border: 0; }
+  .links { display: flex; gap: 16px; flex-wrap: wrap; margin: 10px 0 0; font-size: 14px; }
+  .story { margin: 18px 0 0; max-width: 680px; }
+  .story p { margin: 0 0 12px; }
+  .prompt { position: relative; margin: 8px 0 0; }
+  .prompt pre { margin: 0; padding: 16px 18px 16px; background: var(--code); border: 1px solid var(--rule); border-radius: 12px; white-space: pre-wrap; font: 14px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .prompt button { position: absolute; top: 10px; right: 10px; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+  .label { font-size: 13px; font-weight: 600; margin: 18px 0 0; }
+  .more { margin: 0; padding-left: 20px; } .more li { margin: 6px 0; }
+  footer { margin: 72px 0 0; padding: 24px 0 48px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="by">By <a href="https://miguelclavel.com/?utm_source=github&amp;utm_medium=recipes">Miguel Clavel</a>, Senior Product Designer</p>
+    <h1>Interaction recipes</h1>
+    <p class="lede">A page can be completely correct and still feel flat. The gap between flat and expensive is usually a few small moments where the page notices you're there. Here are three from my site, live, each with the exact prompt so you can build your own.</p>
+  </header>
+
+  <section id="letters">
+    <p class="num">Recipe 01</p>
+    <h2>A name where every letter reacts on its own</h2>
+    <div class="demo"><iframe src="01-name-hover/?embed" title="Live demo: letters that react one at a time" loading="lazy"></iframe></div>
+    <div class="links"><a href="01-name-hover/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/01-name-hover/index.html">Source</a></div>
+    <div class="story">
+      <p>I wanted the first thing you touch on the page to feel alive, without turning my own name into a toy. So the rule was simple: react to the exact letter under your mouse, never the whole word. Eight animations, cycled so neighbours never share one.</p>
+      <p><b>The bit I had to fix by hand:</b> they kept firing while the name was shrinking up into the header on scroll, which looked broken. One check stops a letter animating once the name starts moving.</p>
+    </div>
+    <p class="label">The prompt</p>
+    <div class="prompt"><button type="button" data-copy>Copy</button><pre>Split this heading into individual letters, each in its own element. Write eight short hover animations: a squash and stretch, a tip over that swings back, a drop and spring up, a 3D flip, a sideways slide, a shiver, a scale pop, and a hop. Cycle them across the letters so neighbours never match. Each runs between half a second and two seconds, and plays only when the mouse enters that one letter. Give each a sensible transform origin. Turn it all off for reduced motion.</pre></div>
+  </section>
+
+  <section id="pixel-trail">
+    <p class="num">Recipe 02</p>
+    <h2>A pixel trail behind the hero</h2>
+    <div class="demo"><iframe src="02-pixel-trail/?embed" title="Live demo: a pixel trail behind the hero" loading="lazy"></iframe></div>
+    <div class="links"><a href="02-pixel-trail/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/02-pixel-trail/index.html">Source</a></div>
+    <div class="story">
+      <p>It's a grid, not a cursor. The page is split into 102 columns of small squares. Your pointer charges up whichever squares it passes near, and each one remembers the brightest it's ever been. That single rule is what makes the trail hold its shape instead of flickering out behind you.</p>
+      <p><b>What I got wrong twice:</b> squares kept lighting up underneath my name. I blocked the charge where the text sits and they still lit up, because the radius reaches in from outside it. The fix was to stop drawing there at all, not to stop charging.</p>
+    </div>
+    <p class="label">The prompt</p>
+    <div class="prompt"><button type="button" data-copy>Copy</button><pre>Add a full width canvas behind my hero, split into a grid about 100 columns wide. As the pointer moves, raise an energy value on every cell within 60 pixels of it, and let each cell keep the highest energy it has reached rather than following the pointer back down. Fade energy slowly, twice as fast once the pointer has been still for half a second. Draw the highest energy cells as solid squares in the page text colour and lower ones in random accent colours, skipping the faintest. Never draw over the rectangle where my hero text sits.</pre></div>
+  </section>
+
+  <section id="bending-line">
+    <p class="num">Recipe 03</p>
+    <h2>A line that bends toward your cursor</h2>
+    <div class="demo"><iframe src="03-wave-line/?embed" title="Live demo: a line that bends toward the cursor" loading="lazy"></iframe></div>
+    <div class="links"><a href="03-wave-line/">Open full screen</a><a href="https://github.com/miguelclavel/interaction-recipes/blob/main/03-wave-line/index.html">Source</a></div>
+    <div class="story">
+      <p>The line isn't really a line. It's a curve with a single control point, and that control point is your cursor. Move sideways and it slides with you. Move closer and the bend gets deeper. What makes it feel real is the letting go: it overshoots, comes back, overshoots less, and settles. Each bounce keeps 86 percent of the one before it, roughly what a real piece of string does.</p>
+      <p><b>No invisible box:</b> it just listens to where your pointer is on the page. A box over the line would sit on top of the links next to it and eat the clicks.</p>
+    </div>
+    <p class="label">The prompt</p>
+    <div class="prompt"><button type="button" data-copy>Copy</button><pre>Draw a flat horizontal line as an SVG quadratic curve with one control point in the middle. Listen for mouse movement on the whole page, with no overlay element over the line. When the pointer comes within about 100 pixels vertically and inside the line's width, move the control point to the pointer's horizontal position and push it toward the pointer vertically. When the pointer leaves, spring the line back with a decaying oscillation, keeping about 86 percent of the amplitude each bounce, until it settles flat.</pre></div>
+  </section>
+
+  <section id="more">
+    <p class="num">Seven more</p>
+    <h2>Recipes with a recording and a prompt</h2>
+    <ul class="more">
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/04-scroll-into-header">A name that travels into the header</a></li>
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/05-cards-from-sides">Screenshots that fly in from both sides</a></li>
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/06-images-frame-text">Images that turn into the frame for the text</a></li>
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/07-pixel-dissolve">A pixel dissolve from light into dark</a></li>
+      <li><a href="https://miguelclavel.github.io/pixel-run-game/">A playable game in the footer</a> (live, with its own repo)</li>
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/09-case-study-carousel">Case studies that ride a curve</a></li>
+      <li><a href="https://github.com/miguelclavel/interaction-recipes/tree/main/10-selection-colour">A text selection colour that belongs to the brand</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    If you build one of these, send it to me. I'd genuinely like to see it.<br>
+    <a href="https://miguelclavel.com/?utm_source=github&amp;utm_medium=recipes">miguelclavel.com</a> · <a href="https://www.linkedin.com/in/miguelclavel/">LinkedIn</a> · <a href="https://github.com/miguelclavel">GitHub</a> · MIT licensed
+  </footer>
+</div>
+<script>
+  document.querySelectorAll('[data-copy]').forEach(btn => btn.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(btn.nextElementSibling.textContent); btn.textContent = 'Copied'; }
+    catch (e) { btn.textContent = 'Select and copy'; }
+    setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+  }));
+</script>
+</body>
+</html>
