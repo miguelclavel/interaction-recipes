@@ -66,6 +66,8 @@ Not every recipe is a flourish. These three are the bugs I found in my own sites
 
 For the ones with their own repo, you can also take the code straight from it. Each one is a single file.
 
+Stuck, or made something with one? Ask or show it in [Discussions](https://github.com/miguelclavel/interaction-recipes/discussions).
+
 ## Why prompts and not just code
 
 Because the decisions are the useful part. Each write up says what I got wrong before it worked: the letters that kept firing while the name was moving, the squares that lit up under the text, the dissolve that finished before anyone could see it. A prompt that carries those decisions gets you further than a snippet that doesn't.
