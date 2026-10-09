@@ -28,6 +28,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Override the browser's default text selection colour for my whole site. Use an accent colour that already appears elsewhere in my design as the highlight, with a near black text colour on top of it. Set the same fixed pair in both light and dark mode rather than writing a variant for each, so the theme cannot make it unreadable, and check the pair passes contrast for normal text. Include the standard rule and the Firefox prefixed one.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=selection-colour)
+**[Try the live demo](https://miguelclavel.github.io/portfolio-details/)** · **[Get the code: portfolio-details](https://github.com/miguelclavel/portfolio-details)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=selection-colour)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

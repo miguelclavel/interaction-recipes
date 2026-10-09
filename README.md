@@ -2,7 +2,7 @@
 
 A page can be completely correct and still feel flat. The gap between flat and expensive is usually a few small moments where the page notices you're there.
 
-These are the small moments from my two portfolios, [miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes), each one written up the way I built it: what it does, what went wrong, and **the exact prompt**, so you can paste it into Claude or any AI coding tool and get it on your own site. Eight of them also have their own repo with a live demo and plain, copyable code: [name-hover](https://github.com/miguelclavel/name-hover), [pixel-trail](https://github.com/miguelclavel/pixel-trail), [wave-line](https://github.com/miguelclavel/wave-line), [scroll-into-header](https://github.com/miguelclavel/scroll-into-header), [pixel-dissolve](https://github.com/miguelclavel/pixel-dissolve), [pixel-run-game](https://github.com/miguelclavel/pixel-run-game), [dark-mode](https://github.com/miguelclavel/dark-mode) and [sticker-burst](https://github.com/miguelclavel/sticker-burst). No libraries, no build step.
+These are the small moments from my two portfolios, [miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes), each one written up the way I built it: what it does, what went wrong, and **the exact prompt**, so you can paste it into Claude or any AI coding tool and get it on your own site. Twelve of them also have their own repo with a live demo and plain, copyable code: [name-hover](https://github.com/miguelclavel/name-hover), [pixel-trail](https://github.com/miguelclavel/pixel-trail), [wave-line](https://github.com/miguelclavel/wave-line), [scroll-into-header](https://github.com/miguelclavel/scroll-into-header), [pixel-dissolve](https://github.com/miguelclavel/pixel-dissolve), [pixel-run-game](https://github.com/miguelclavel/pixel-run-game), [dark-mode](https://github.com/miguelclavel/dark-mode), [sticker-burst](https://github.com/miguelclavel/sticker-burst), [curve-carousel](https://github.com/miguelclavel/curve-carousel) and [portfolio-details](https://github.com/miguelclavel/portfolio-details) (the viewed badge, the short version and the selection colour). All of them are on one page at [miguelclavel.github.io](https://miguelclavel.github.io/). No libraries, no build step.
 
 **[Try the live demos](https://miguelclavel.github.io/interaction-recipes/)** · By [Miguel Clavel](https://github.com/miguelclavel), Senior Product Designer
 
@@ -24,8 +24,8 @@ These are the small moments from my two portfolios, [miguelclavel.com](https://m
     <td width="50%" valign="top"><a href="08-footer-game/"><img src="https://github.com/miguelclavel/pixel-run-game/raw/main/assets/pixel-run.gif" alt="A small runner game where the blocks spell a name"></a><br><b><a href="08-footer-game/">08 · A playable game in the footer</a></b><br><sub>The thing you jump over is my own name. Full code in <a href="https://github.com/miguelclavel/pixel-run-game">pixel-run-game</a>.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="09-case-study-carousel/"><img src="09-case-study-carousel/demo.gif" alt="Case study cards riding along a curve"></a><br><b><a href="09-case-study-carousel/">09 · Case studies that ride a curve</a></b><br><sub>Cards on a circle whose centre sits below the screen.</sub></td>
-    <td width="50%" valign="top"><a href="10-selection-colour/"><img src="10-selection-colour/demo.gif" alt="Selected text highlighted in a brand yellow"></a><br><b><a href="10-selection-colour/">10 · A text selection colour that belongs to the brand</a></b><br><sub>The smallest detail on the site, and the one people notice.</sub></td>
+    <td width="50%" valign="top"><a href="09-case-study-carousel/"><img src="09-case-study-carousel/demo.gif" alt="Case study cards riding along a curve"></a><br><b><a href="09-case-study-carousel/">09 · Case studies that ride a curve</a></b><br><sub>Cards on a circle whose centre sits below the screen. Code: <a href="https://github.com/miguelclavel/curve-carousel">curve-carousel</a>.</sub></td>
+    <td width="50%" valign="top"><a href="10-selection-colour/"><img src="10-selection-colour/demo.gif" alt="Selected text highlighted in a brand yellow"></a><br><b><a href="10-selection-colour/">10 · A text selection colour that belongs to the brand</a></b><br><sub>The smallest detail on the site, and the one people notice. Code: <a href="https://github.com/miguelclavel/portfolio-details">portfolio-details</a>.</sub></td>
   </tr>
 </table>
 
@@ -33,8 +33,8 @@ These are the small moments from my two portfolios, [miguelclavel.com](https://m
 
 <table>
   <tr>
-    <td width="50%" valign="top"><b><a href="11-viewed-badge/">11 · A case study list that remembers what you opened</a></b><br><sub>A small "viewed" mark, kept for the visit only, so readers know where they have been.</sub></td>
-    <td width="50%" valign="top"><a href="12-short-version/"><img src="12-short-version/demo.gif" alt="A three part summary at the top of a case study"></a><br><b><a href="12-short-version/">12 · The short version at the top of every case study</a></b><br><sub>The problem, what I did, what changed, before any images. For the 30 second read.</sub></td>
+    <td width="50%" valign="top"><b><a href="11-viewed-badge/">11 · A case study list that remembers what you opened</a></b><br><sub>A small "viewed" mark, kept for the visit only, so readers know where they have been. Code: <a href="https://github.com/miguelclavel/portfolio-details">portfolio-details</a>.</sub></td>
+    <td width="50%" valign="top"><a href="12-short-version/"><img src="12-short-version/demo.gif" alt="A three part summary at the top of a case study"></a><br><b><a href="12-short-version/">12 · The short version at the top of every case study</a></b><br><sub>The problem, what I did, what changed, before any images. For the 30 second read. Code: <a href="https://github.com/miguelclavel/portfolio-details">portfolio-details</a>.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="13-dark-light/"><img src="13-dark-light/demo.gif" alt="A site switching between light and dark"></a><br><b><a href="13-dark-light/">13 · A dark mode that remembers you</a></b><br><sub>A toggle that sticks across visits, and starts from the visitor's own system setting. Code: <a href="https://github.com/miguelclavel/dark-mode">dark-mode</a>.</sub></td>
@@ -64,7 +64,7 @@ Not every recipe is a flourish. These three are the bugs I found in my own sites
 2. Copy the prompt as it is and paste it into Claude, Claude Code, or any AI coding tool, along with your page.
 3. Tune it. Every recipe says which number to play with.
 
-For the eight with their own repo, you can also take the code straight from it. Each one is a single file.
+For the ones with their own repo, you can also take the code straight from it. Each one is a single file.
 
 ## Why prompts and not just code
 

@@ -30,6 +30,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Arrange my project cards along the top of a large circle whose centre sits below the viewport, so cards to either side of the focused one tilt away as they ride the curve. Work out each card's distance from the focused index, and use that one distance to set its scale with a minimum floor, its opacity with no fade for the first card and a half, and its stack order so the focused card is always on top. Only the focused card should be clickable.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=case-study-carousel)
+**[Try the live demo](https://miguelclavel.github.io/curve-carousel/)** · **[Get the code: curve-carousel](https://github.com/miguelclavel/curve-carousel)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=case-study-carousel)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

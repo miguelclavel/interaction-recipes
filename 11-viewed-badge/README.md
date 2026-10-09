@@ -18,6 +18,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 When a link to a project is clicked, save that project's id into a list in sessionStorage. On the page that lists all the projects, check that saved list against every project shown, and reveal a small hidden badge next to any project whose id is in the list. Keep the badge hidden by default so it only ever appears for something the visitor actually opened.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=viewed-badge)
+**[Try the live demo](https://miguelclavel.github.io/portfolio-details/)** · **[Get the code: portfolio-details](https://github.com/miguelclavel/portfolio-details)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=viewed-badge)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>

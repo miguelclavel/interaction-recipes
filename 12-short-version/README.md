@@ -34,6 +34,6 @@ Copy it as it is and paste it into Claude, or any AI coding tool.
 Add a short summary block at the top of each of my case studies, before any images. Three parts: The problem, What I did, What changed. Two lines each, plain language, no jargon. Write it so someone who reads only this block still knows what the project was and whether it worked. Where I don't have a verified number for an outcome, say so in one line rather than leaving it vague or estimating.
 ```
 
-[See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=short-version)
+**[Try the live demo](https://miguelclavel.github.io/portfolio-details/)** · **[Get the code: portfolio-details](https://github.com/miguelclavel/portfolio-details)** · [See it on miguelclavel.com](https://miguelclavel.com/?utm_source=github&utm_medium=recipes&utm_campaign=short-version)
 
 <sub>[All recipes](../README.md) · By [Miguel Clavel](https://github.com/miguelclavel)</sub>
